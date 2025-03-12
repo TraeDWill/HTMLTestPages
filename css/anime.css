@@ -1,0 +1,37 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #a6f4cd;
+  padding: auto 0px;
+  margin: auto 0px;
+  line-height: 125%;
+}
+
+#anime-banner {
+  text-align: center;
+}
+
+#anime-banner > img {
+  width: auto;
+  height: 500px;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  font-family: comic-sans, Monotype corsiva, cursive;
+  background-color: #CDA6F4;
+  padding: 20px 0px;
+  margin: auto;
+}
+
+.heading{
+    background-color: #CDA6F4;
+    padding: 5px 0px;
+    margin: 15px 0px;
+}
+
+section > img{
+    display:block;
+    width: 750px;
+    margin: auto;
+}

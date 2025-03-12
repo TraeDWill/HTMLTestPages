@@ -1,1 +1,1 @@
-This shows example pages for html
+This is front end web dev examples
