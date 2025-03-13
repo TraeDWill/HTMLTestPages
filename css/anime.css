@@ -7,31 +7,54 @@ body {
 }
 
 #anime-banner {
-  text-align: center;
+  position: relative;
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
 
 #anime-banner > img {
-  width: auto;
-  height: 500px;
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#anime-banner > #click {
+  position: absolute;
+  top: 17%; /* Moves text down */
+  left: 50%; /* Moves text to the center */
+  transform: translate(-50%, -50%); /* Centers it perfectly */
+  color: white; /* Ensure it stands out */
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Optional: Adds semi-transparent background */
+  padding: 10px;
+  border-radius: 5px;
 }
 
 h1 {
   display: block;
   text-align: center;
   font-family: comic-sans, Monotype corsiva, cursive;
-  background-color: #CDA6F4;
+  background-color: #cda6f4;
   padding: 20px 0px;
   margin: auto;
 }
 
-.heading{
-    background-color: #CDA6F4;
-    padding: 5px 0px;
-    margin: 15px 0px;
+.heading {
+  background-color: #cda6f4;
+  padding: 5px 0px;
+  margin: 15px 0px;
 }
 
-section > img{
-    display:block;
-    width: 750px;
-    margin: auto;
+section > img {
+  display: block;
+  width: 750px;
+  margin: auto;
 }
