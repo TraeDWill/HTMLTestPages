@@ -58,3 +58,18 @@ section > img {
   width: 750px;
   margin: auto;
 }
+
+.pop {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 200%;
+  background-color: green;
+  font-size: 110%;
+}
+
+.norm {
+  line-height: 125%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #a6f4cd;
+}

@@ -22,3 +22,15 @@ document.getElementById('click').addEventListener('click', function () {
     document.getElementById('front-display').src = '../images/pxfuel.jpg';
   }, 3000);
 });
+
+document
+  .getElementById('description')
+  .addEventListener('mouseover', function () {
+    document.getElementById('description').classList.toggle('pop');
+  });
+
+document
+  .getElementById('description')
+  .addEventListener('mouseout', function () {
+    document.getElementById('description').classList.toggle('pop');
+  });
